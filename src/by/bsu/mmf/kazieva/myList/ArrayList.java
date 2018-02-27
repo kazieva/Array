@@ -1,8 +1,7 @@
-package by.bsu.mmf.kazieva;
-
+package by.bsu.mmf.kazieva.myList;
 import java.util.Iterator;
 
-public class ArrayList<E> implements Array<E>{
+public class ArrayList<E> implements Array<E> {
     public final static int NO_ELEMENT = -100;
     private E[] values;
 

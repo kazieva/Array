@@ -1,4 +1,4 @@
-package by.bsu.mmf.kazieva;
+package by.bsu.mmf.kazieva.myList;
 
 import java.util.Iterator;
 
@@ -7,6 +7,7 @@ public class ArrayIterator<E> implements Iterator<E> {
     private E[] values;
 
     public ArrayIterator(E[] values) {
+
         this.values = values;
     }
 
